@@ -1,0 +1,17 @@
+Cloudfront configuartion:
+1. point your cloudfront to cdn.domain.com
+2. point cdn.domain.com to the machine/instance/host where you are going to put this script
+
+Apache Configuration:
+1. put cdn.domain.com file (after editing the domain name) in /etc/apache/sites-available
+2. create a soft link of this file in /etc/apache/sites-enabled
+3. put cdn folder in /var/www
+4. put all your images in /var/www/cdn/image folder
+
+Access the images:
+1. point your browser to cloudfront url.
+	eg: https://xxxxxx.cloudfront.net/image/500/500/helloworld.jpg
+	eg: https://xxxxxx.cloudfront.net/image/250/250/helloworld.jpg
+	eg: https://xxxxxx.cloudfront.net/image/100/100/helloworld.jpg
+2. You will see the same image with different sizes
+3. you can user this to create small thumbnail or bigger banner image (but stretched one) image.
