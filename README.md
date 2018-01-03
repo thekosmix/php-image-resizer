@@ -8,4 +8,5 @@ This project will help in getting an image with any specified dimension. You jus
 - be familiar with apache config
 - have a cloudfront account
 
-### Please read (HOWTO)[HOWTO] for setting up this project
+### How to setup the project
+ - (Read HOWTO)[HOWTO]
