@@ -9,4 +9,4 @@ This project will help in getting an image with any specified dimension. You jus
 - have a cloudfront account
 
 ### How to setup the project
- - (Read HOWTO)[HOWTO]
+ - [Read HOWTO](HOWTO)
